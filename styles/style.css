@@ -16,10 +16,20 @@
   color: #FA804C;
 }
 
+.Nike-bg-color{
+  background-color: #FFF9F4;
+}
+
  /* casul shoes*/
  .button-nike{
   background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
   color: white;
   padding-left: 1.5em;
   padding-right: 1.5em;
+}
+
+.button-nike:hover{
+  color: yellow;
+  transform: scale(1.2);
+  transition: transform 1s ease-in-out;
 }
